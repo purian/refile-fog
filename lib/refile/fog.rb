@@ -17,7 +17,7 @@ module Refile
       end
 
       def upload(uploadable)
-        Refile.verify_uploadable(uploadable, @max_size)
+        #Refile.verify_uploadable(uploadable, @max_size)
 
         id = @hasher.hash(uploadable)
 
